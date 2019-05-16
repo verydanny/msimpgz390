@@ -112,7 +112,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 debug=0x100 keepsyms=1 shikigva=40 -v uia_exclude=HS14</string>
+		<string>dart=0 debug=0x100 keepsyms=1 uia_exclude=HS14</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -140,65 +140,14 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				BwCbPg==
-				</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device-id</key>
-				<data>
-				kj4AAA==
-				</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-alldata</key>
-				<data>
-				AQUSAAAEAADHAwAAAgQSAAAEAADHAwAAAwYSAAAEAADH
-				AwAA
-				</data>
-				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
-				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
-				<key>model</key>
-				<string>UHD Graphics 630 (Desktop)</string>
-			</dict>
-		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
 			<false/>
 			<key>FixOwnership</key>
 			<true/>
+			<key>Inject</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -227,9 +176,17 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>2560x1440</string>
+		<string>3440x1440</string>
 		<key>Theme</key>
 		<string>clover-theme-minimal-dark</string>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>Inject</key>
+		<dict>
+			<key>Intel</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -255,9 +212,9 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x0</string>
 		<key>MLB</key>
-		<string>C02730404QXJ0PG1F</string>
+		<string></string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -274,7 +231,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02V50VTJ1GJ</string>
+		<string></string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -304,16 +261,16 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>C02V50VTJ1GJ</string>
+		<string></string>
 		<key>SmUUID</key>
-		<string>5B6F69C2-4B6D-4370-B3D1-D726FA169567</string>
+		<string></string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>9D3F47E9-9E6D-4F25-9399-C65A6018ABBC</string>
+		<string></string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
