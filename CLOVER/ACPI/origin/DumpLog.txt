@@ -1,0 +1,126 @@
+42:226  3:688  Found UEFI Acpi 2.0 RSDP at 6C22F000
+42:226  0:000  Saving ACPI tables from RSDP 6C22F000 to EFI\CLOVER\ACPI\origin ...
+42:226  0:000   6C22F000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+42:242  0:015    (Xsdt: 6C22F0A8, Rsdt: 6C22F028)
+42:242  0:000    6C22F0A8: 'XSDT', 'A M I', Rev: 1, Len: 212 -> XSDT.aml
+42:255  0:012    6C22F028: 'RSDT', 'A M I', Rev: 1, Len: 124 -> RSDT.aml
+42:267  0:012    Tables in Xsdt: 22
+42:267  0:000    0. 6C26DD58: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+42:279  0:011        (Dsdt: 6C22F218, Facs: 6C31E080, XDsdt: 6C22F218, XFacs: 0)
+42:279  0:000        6C22F218: 'DSDT', 'A M I', Rev: 2, Len: 256831 -> DSDT.aml
+42:293  0:014        6C31E080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+42:305  0:011    1. 6C26DE70: 'APIC', 'A M I', Rev: 4, Len: 300 -> APIC.aml
+42:317  0:011    2. 6C26DFA0: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+42:329  0:012    3. 6C26DFE8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+42:342  0:012    4. 6C26E088: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+42:354  0:012    5. 6C26E0C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+42:366  0:012        * 68977018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 2069  53 53 44 54 15 08 00 00 02 88 50 6D 52 65 66 00 Internal length = 2069 -> SSDT-x0_0-Cpu0Ist.aml
+42:378  0:011        * 6BD51298: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x0_1-ApIst.aml
+42:391  0:012        * 6BD4E018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+42:402  0:011        * 6BD51918: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+42:413  0:011        * 6897AD18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 61 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x0_4-Cpu0Hwp.aml
+42:425  0:012        * 6899D518: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+42:436  0:011        * 68973018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+42:447  0:011        * 68977E98: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+42:459  0:011        * 68979018: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x0_8-ApPsd.aml
+42:470  0:011  
+42:470  0:000    6. 6C26FBE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742 -> SSDT-1-SaSsdt.aml
+42:482  0:011    7. 6C272DB0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9110 -> SSDT-2-PegSsdt.aml
+42:493  0:011    8. 6C275148: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+42:505  0:011    9. 6C275180: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014 -> SSDT-3-Ther_Rvp.aml
+42:516  0:011    10. 6C276130: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12408 -> SSDT-4-xh_cfsd4.aml
+42:528  0:012    11. 6C2791A8: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+42:539  0:011    12. 6C2791F0: 'LPIT', 'A M I', Rev: 1, Len: 148 -> LPIT.aml
+42:550  0:011    13. 6C279288: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-5-PtidDevc.aml
+42:561  0:011    14. 6C27BA68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346 -> SSDT-6-TbtTypeC.aml
+42:573  0:011    15. 6C27CF50: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+42:584  0:011    16. 6C27CF88: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+42:596  0:011    17. 6C27CFE0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 7015 -> SSDT-7-UsbCTabl.aml
+42:607  0:011    18. 6C27EB48: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-8-ADebTabl.aml
+42:619  0:011    19. 6C27EC90: 'VFCT', 'A M I', Rev: 1, Len: 59524 -> VFCT.aml
+42:631  0:012    20. 6C28D518: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+42:643  0:012    21. 6C28D550: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+42:655  0:011    Tables in Rsdt: 22
+42:655  0:000    0. 6C22F190: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+42:667  0:012        (Dsdt: 6C22F218, Facs: 6C31E040)
+42:667  0:000        6C22F218: 'DSDT', 'A M I', Rev: 2, Len: 256831
+42:669  0:001        6C31E040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+42:681  0:011    1. 6C26DE70: 'APIC', 'A M I', Rev: 4, Len: 300
+42:681  0:000    2. 6C26DFA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+42:681  0:000    3. 6C26DFE8: 'FIDT', 'A M I', Rev: 1, Len: 156
+42:681  0:000    4. 6C26E088: 'MCFG', 'A M I', Rev: 1, Len: 60
+42:681  0:000    5. 6C26E0C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+42:681  0:000    6. 6C26FBE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+42:681  0:000    7. 6C272DB0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9110
+42:681  0:000    8. 6C275148: 'HPET', 'A M I', Rev: 1, Len: 56
+42:681  0:000    9. 6C275180: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+42:681  0:000    10. 6C276130: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12408
+42:681  0:000    11. 6C2791A8: 'UEFI', 'A M I', Rev: 1, Len: 66
+42:681  0:000    12. 6C2791F0: 'LPIT', 'A M I', Rev: 1, Len: 148
+42:681  0:000    13. 6C279288: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+42:681  0:000    14. 6C27BA68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+42:681  0:000    15. 6C27CF50: 'DBGP', 'A M I', Rev: 1, Len: 52
+42:681  0:000    16. 6C27CF88: 'DBG2', 'A M I', Rev: 0, Len: 84
+42:681  0:000    17. 6C27CFE0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 7015
+42:681  0:000    18. 6C27EB48: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+42:681  0:000    19. 6C27EC90: 'VFCT', 'A M I', Rev: 1, Len: 59524
+42:681  0:000    20. 6C28D518: 'BGRT', 'A M I', Rev: 1, Len: 56
+42:681  0:000    21. 6C28D550: 'WSMT', 'A M I', Rev: 1, Len: 40
+42:681  0:000  Found UEFI Acpi 1.0 RSDP at 6C22F000
+42:681  0:000  Printing ACPI tables from RSDP 6C22F000 ...
+42:681  0:000   6C22F000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+42:681  0:000    (Xsdt: 6C22F0A8, Rsdt: 6C22F028)
+42:681  0:000    6C22F0A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+42:681  0:000    6C22F028: 'RSDT', 'A M I', Rev: 1, Len: 124
+42:681  0:000    Tables in Xsdt: 22
+42:681  0:000    0. 6C26DD58: 'FACP', 'A M I', Rev: 6, Len: 276
+42:681  0:000        (Dsdt: 6C22F218, Facs: 6C31E080, XDsdt: 6C22F218, XFacs: 0)
+42:681  0:000        6C22F218: 'DSDT', 'A M I', Rev: 2, Len: 256831
+42:683  0:001        6C31E080: 'FACS', Ver: 2, Len: 64
+42:683  0:000    1. 6C26DE70: 'APIC', 'A M I', Rev: 4, Len: 300
+42:683  0:000    2. 6C26DFA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+42:683  0:000    3. 6C26DFE8: 'FIDT', 'A M I', Rev: 1, Len: 156
+42:683  0:000    4. 6C26E088: 'MCFG', 'A M I', Rev: 1, Len: 60
+42:683  0:000    5. 6C26E0C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+42:683  0:000    6. 6C26FBE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+42:683  0:000    7. 6C272DB0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9110
+42:683  0:000    8. 6C275148: 'HPET', 'A M I', Rev: 1, Len: 56
+42:683  0:000    9. 6C275180: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+42:683  0:000    10. 6C276130: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12408
+42:683  0:000    11. 6C2791A8: 'UEFI', 'A M I', Rev: 1, Len: 66
+42:683  0:000    12. 6C2791F0: 'LPIT', 'A M I', Rev: 1, Len: 148
+42:683  0:000    13. 6C279288: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+42:683  0:000    14. 6C27BA68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+42:683  0:000    15. 6C27CF50: 'DBGP', 'A M I', Rev: 1, Len: 52
+42:683  0:000    16. 6C27CF88: 'DBG2', 'A M I', Rev: 0, Len: 84
+42:683  0:000    17. 6C27CFE0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 7015
+42:683  0:000    18. 6C27EB48: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+42:683  0:000    19. 6C27EC90: 'VFCT', 'A M I', Rev: 1, Len: 59524
+42:683  0:000    20. 6C28D518: 'BGRT', 'A M I', Rev: 1, Len: 56
+42:683  0:000    21. 6C28D550: 'WSMT', 'A M I', Rev: 1, Len: 40
+42:683  0:000    Tables in Rsdt: 22
+42:683  0:000    0. 6C22F190: 'FACP', 'A M I', Rev: 2, Len: 132
+42:683  0:000        (Dsdt: 6C22F218, Facs: 6C31E040)
+42:683  0:000        6C22F218: 'DSDT', 'A M I', Rev: 2, Len: 256831
+42:685  0:001        6C31E040: 'FACS', Ver: 0, Len: 64
+42:685  0:000    1. 6C26DE70: 'APIC', 'A M I', Rev: 4, Len: 300
+42:685  0:000    2. 6C26DFA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+42:685  0:000    3. 6C26DFE8: 'FIDT', 'A M I', Rev: 1, Len: 156
+42:685  0:000    4. 6C26E088: 'MCFG', 'A M I', Rev: 1, Len: 60
+42:685  0:000    5. 6C26E0C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+42:685  0:000    6. 6C26FBE8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+42:685  0:000    7. 6C272DB0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9110
+42:685  0:000    8. 6C275148: 'HPET', 'A M I', Rev: 1, Len: 56
+42:685  0:000    9. 6C275180: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 4014
+42:685  0:000    10. 6C276130: 'SSDT', 'xh_cfsd4', Rev: 2, Len: 12408
+42:685  0:000    11. 6C2791A8: 'UEFI', 'A M I', Rev: 1, Len: 66
+42:685  0:000    12. 6C2791F0: 'LPIT', 'A M I', Rev: 1, Len: 148
+42:685  0:000    13. 6C279288: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+42:685  0:000    14. 6C27BA68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5346
+42:685  0:000    15. 6C27CF50: 'DBGP', 'A M I', Rev: 1, Len: 52
+42:685  0:000    16. 6C27CF88: 'DBG2', 'A M I', Rev: 0, Len: 84
+42:685  0:000    17. 6C27CFE0: 'SSDT', 'UsbCTabl', Rev: 2, Len: 7015
+42:685  0:000    18. 6C27EB48: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+42:685  0:000    19. 6C27EC90: 'VFCT', 'A M I', Rev: 1, Len: 59524
+42:685  0:000    20. 6C28D518: 'BGRT', 'A M I', Rev: 1, Len: 56
+42:685  0:000    21. 6C28D550: 'WSMT', 'A M I', Rev: 1, Len: 40
