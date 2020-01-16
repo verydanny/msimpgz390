@@ -137,7 +137,7 @@
 			<false/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>3440x1440</string>
+		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>clover-theme-minimal-dark</string>
 	</dict>
